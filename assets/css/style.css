@@ -437,3 +437,226 @@ form {
   color: #6dc9c9;
   margin-top: 10px;
 }
+
+
+
+
+
+/* HUSEYN BRANCH */
+
+
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* container first */
+
+.container {
+
+    .contact-text{ 
+        span{
+            margin: 10px;
+        }
+    }
+  .register {
+    ul {
+      display: flex;
+      list-style-type: none;
+     
+      a {
+        text-decoration: none;
+        color: darkgray;
+        margin: 15px;
+      }
+    }
+  }
+}
+
+/* header */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    margin: 20px;
+  }
+
+  .links {
+    margin: 20px;
+    ul {
+      display: flex;
+      list-style-type: none;
+      gap: 10px;
+
+      a {
+        text-decoration: none;
+        color: black;
+        margin: 25px;
+        font-family: bold;
+      }
+    }
+  }
+}
+
+/* header end */
+
+
+/* hero section */
+.hero-wrapper{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    width: 400px;
+    color: rgb(154, 154, 154);
+    h3{
+        font-size: 18px;
+        color: black;
+    }
+    i{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+/* learn section */
+
+
+#learn-more{
+    width: 100%;
+    background-color: rgb(250, 243, 234);
+    height: 100px;
+}
+.learn-wrapper{
+    margin-top: 60px;
+    display: flex;   
+    
+}
+
+
+
+/* courses section */
+
+
+
+.courses-wrapper{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.courses-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.courses-images{
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+/* footer contact section */
+
+#footer-contact{
+    width: 100%;
+    background-color: #72d5cd;
+    height: 150px;
+}
+.contact-wrapper{
+
+    margin-top: 60px;
+    display: flex;   
+    
+}
+
+
+/* footer section */
+
+
+#footer{
+  width: 100%;
+  background-color: #262626;
+  color: white;
+}
+.footer{
+  min-height: 400px;
+  display: flex;
+  gap: 30px;
+}
+
+
+.footer-about{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 40px ; 
+  gap: 20px;
+  
+}
+
+
+
+
+
+.footer-tag{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  .tag-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+
+.footer-recent{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  img{
+    width: 60px;
+    height: 60px;
+  }
+  .post{
+    display: flex;
+    gap: 20px;
+    font-weight: 100;
+  }
+}
+
+
+
+.footer-posts{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 45%;
+  .posts-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  }

@@ -1,0 +1,75 @@
+@media (max-width: 767.98px) {
+    .courses-images{
+        flex-direction: column !important;
+    }
+    .hero-wrapper{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-about{
+        width: 80%;
+    }
+    .footer-posts{
+        width: 80%;
+    }
+    .footer-tag{
+        width: 80%;
+    }
+    .footer-recent{
+        width: 80%;
+    }
+    .links{
+        display: none;
+    }
+    .register{
+        display: none;
+    }
+    /* .contact-wrapper{
+        flex-direction: column;
+        max-height: 500px;
+    } */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width: 768px) and (max-width: 991.98px){ 
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer-about{
+        width: 40%;
+    }
+    .footer-posts{
+        width: 40%;
+    }
+    .footer-tag{
+        width: 40%;
+    }
+    .footer-recent{
+        width: 40%;
+    }
+    .courses-images{
+        img{
+            width: 230px;
+        }
+    }
+    .links{
+        display: none;
+    }
+    .register{
+        display: none;
+    }   
+  }

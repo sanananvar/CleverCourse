@@ -12,7 +12,7 @@ function changeSlide(direction) {
     currentSlide = 0; 
   }
 
-  const slider = document.querySelector('.slider');
+  const slider = document.querySelector('.slider-p');
   slider.style.transform = `translateX(-${currentSlide * 33.33}%)`;
 }
 

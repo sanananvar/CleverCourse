@@ -12,7 +12,7 @@ a {
   color: rgb(125, 157, 77);
 }
 
-.header {
+/* .header {
   height: 100px;
   max-width: 100%;
 }
@@ -37,18 +37,18 @@ a {
 .fa-btn {
   border: none;
   color: black;
-}
+} */
 
 /* main-slider */
-
+/* 
 .slider-hero {
   height: 400px;
   max-width: 100%;
-}
-.carusel-img {
+} */
+/* .carusel-img {
   height: 400px;
   object-fit: cover;
-}
+} */
 
 .content {
   min-height: 400px;
@@ -77,7 +77,7 @@ a {
 
 /* section-3-lM */
 
-.learnmore {
+/* .learnmore {
   height: 120px;
   width: 100%;
   background-color: wheat;
@@ -97,7 +97,7 @@ a {
   }
 }
 
-/* section-4 product */
+section-4 product */
 
 .product-slider {
   height: 550px;
@@ -160,7 +160,7 @@ body {
   overflow: hidden;
 }
 
-.slider {
+.slider-p {
   gap: 5px;
   display: flex;
   transition: transform 0.5s ease;
@@ -244,7 +244,7 @@ body {
 }
 
 #search {
-  background-image: url(../images/download.jfif);
+  background-image: url(../images/slider-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -301,7 +301,7 @@ form {
 .raw-elements {
   display: flex;
   flex-direction: column;
-  
+
   gap: 20px;
   justify-content: space-between;
   height: 100%;
@@ -331,27 +331,27 @@ form {
   }
 }
 
-.img-simon{
+.img-simon {
   height: 100px;
   width: 100px;
   border-radius: 50%;
   overflow: hidden;
-  img{
+  img {
     height: 100%;
     width: 100%;
   }
 }
 
-.simon-button{
+.simon-button {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin:0 auto;
-  background-color:#8ed1fc;
+  margin: 0 auto;
+  background-color: #8ed1fc;
   height: 50px;
   width: 150px;
 }
-.simon-card{
+.simon-card {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -360,7 +360,7 @@ form {
   margin: 0 auto;
 }
 
-#text-slider{
+#text-slider {
   height: 500px;
   display: flex;
   align-items: center;
@@ -377,7 +377,6 @@ form {
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  
 }
 
 .testimonial-slider-heading {
@@ -393,7 +392,7 @@ form {
   justify-content: space-between;
   position: relative;
 }
-.testominal-top{
+.testominal-top {
   justify-content: center;
   align-items: center;
   display: flex !important;
@@ -438,15 +437,7 @@ form {
   margin-top: 10px;
 }
 
-
-
-
-
 /* HUSEYN BRANCH */
-
-
-
-
 
 * {
   margin: 0px;
@@ -457,17 +448,16 @@ form {
 /* container first */
 
 .container {
-
-    .contact-text{ 
-        span{
-            margin: 10px;
-        }
+  .contact-text {
+    span {
+      margin: 10px;
     }
+  }
   .register {
     ul {
       display: flex;
       list-style-type: none;
-     
+
       a {
         text-decoration: none;
         color: darkgray;
@@ -506,157 +496,130 @@ form {
 
 /* header end */
 
-
 /* hero section */
-.hero-wrapper{
-    margin-top: 50px;
-    display: flex;
-    gap: 20px;
+.hero-wrapper {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
 }
-.hero{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-    width: 400px;
-    color: rgb(154, 154, 154);
-    h3{
-        font-size: 18px;
-        color: black;
-    }
-    i{
-        font-size: 30px;
-    }
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  width: 400px;
+  color: rgb(154, 154, 154);
+  h3 {
+    font-size: 18px;
+    color: black;
+  }
+  i {
+    font-size: 30px;
+  }
 }
-
-
-
-
-
 
 /* learn section */
 
-
-#learn-more{
-    width: 100%;
-    background-color: rgb(250, 243, 234);
-    height: 100px;
+#learn-more {
+  width: 100%;
+  background-color: rgb(250, 243, 234);
+  height: 100px;
 }
-.learn-wrapper{
-    margin-top: 60px;
-    display: flex;   
-    
+.learn-wrapper {
+  margin-top: 60px;
+  display: flex;
 }
-
-
 
 /* courses section */
 
-
-
-.courses-wrapper{
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.courses-wrapper {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
-.courses-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+.courses-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
-.courses-images{
-    display: flex;
-    gap: 40px;
+.courses-images {
+  display: flex;
+  gap: 40px;
 }
-
-
-
 
 /* footer contact section */
 
-#footer-contact{
-    width: 100%;
-    background-color: #72d5cd;
-    height: 150px;
+#footer-contact {
+  width: 100%;
+  background-color: #72d5cd;
+  height: 150px;
 }
-.contact-wrapper{
-
-    margin-top: 60px;
-    display: flex;   
-    
+.contact-wrapper {
+  margin-top: 60px;
+  display: flex;
 }
-
 
 /* footer section */
 
-
-#footer{
+#footer {
   width: 100%;
   background-color: #262626;
   color: white;
 }
-.footer{
+.footer {
   min-height: 400px;
   display: flex;
   gap: 30px;
 }
 
-
-.footer-about{
+.footer-about {
   width: 45%;
   display: flex;
   flex-direction: column;
   text-align: start;
-  margin-top: 40px ; 
+  margin-top: 40px;
   gap: 20px;
-  
 }
 
-
-
-
-
-.footer-tag{
+.footer-tag {
   width: 45%;
   display: flex;
   flex-direction: column;
   gap: 50px;
-  .tag-buttons{
+  .tag-buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
   }
 }
 
-
-.footer-recent{
+.footer-recent {
   width: 45%;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  img{
+  img {
     width: 60px;
     height: 60px;
   }
-  .post{
+  .post {
     display: flex;
     gap: 20px;
     font-weight: 100;
   }
 }
 
-
-
-.footer-posts{
+.footer-posts {
   display: flex;
   flex-direction: column;
   gap: 40px;
   width: 45%;
-  .posts-content{
+  .posts-content {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
-  }
+}
+
